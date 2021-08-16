@@ -6,9 +6,6 @@ brew bundle
 echo "✅ homebrew done"
 
 
-
-
-
 # Symlink files
 echo "⚪️ Starting symlinking"
 
