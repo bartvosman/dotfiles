@@ -1,5 +1,5 @@
 export LANG="nl_NL.UTF-8"
 
 # Load antigen
-. "$HOME/.dotfiles/antigen/antigen.zsh"
-antigen init "$HOME/.dotfiles/zsh/.antigenrc"
+. "/home/bart/.dotfiles/antigen/antigen.zsh"
+antigen init "/home/bart/.dotfiles/zsh/.antigenrc"

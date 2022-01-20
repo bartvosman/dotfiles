@@ -22,3 +22,8 @@ alias pull='git pull'
 # NOS
 alias removebf='git checkout web/build/js/ src/Nos/Bundle/SiteBundle/Resources/public/css/'
 alias resetbf='git checkout develop web/build/js/ src/Nos/Bundle/SiteBundle/Resources/public/css/ app/config/site/version.yml'
+
+fpath+=$HOME/.zsh/pure
+
+autoload -U promptinit; promptinit
+prompt pure

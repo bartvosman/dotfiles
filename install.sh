@@ -13,7 +13,7 @@ echo "✅ homebrew done"
 echo "⚪️ Starting symlinking"
 
 echo "⚪️ symlinking hyper.js"
-ln -sf ~/.dotfiles/.hyper.js ~/.hyper.js
+#ln -sf ~/.dotfiles/.hyper.js ~/.hyper.js
 
 echo "⚪️ symlinking .zshrc"
 ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
