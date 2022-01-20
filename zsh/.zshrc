@@ -1,3 +1,7 @@
+# Set pure as prompt
+autoload -U promptinit; promptinit
+prompt pure
+
 # Alias a quick http server
 alias server="php -S localhost:8000"
 
