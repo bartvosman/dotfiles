@@ -9,9 +9,6 @@ echo "✅ homebrew done"
 # Symlink files
 echo "⚪️ Starting symlinking"
 
-echo "⚪️ symlinking hyper.js"
-#ln -sf ~/.dotfiles/.hyper.js ~/.hyper.js
-
 echo "⚪️ symlinking .zshrc"
 ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
 
