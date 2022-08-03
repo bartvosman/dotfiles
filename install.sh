@@ -1,6 +1,8 @@
 # Install Homebrew apps
 echo "⚪️ Downloading Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/bartvosman/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 echo "⚪️ Installing brew apps"
 brew bundle
 echo "✅ homebrew done"
