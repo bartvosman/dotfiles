@@ -23,3 +23,6 @@ echo "✅ Symlinking completed"
 echo "⚪️ Change default shell to zsh, you password is required!"
 chsh -s /bin/zsh
 echo "✅ zsh completed"
+
+echo "⚪️ Create projects folder"
+mkdir ~/projects
