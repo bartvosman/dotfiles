@@ -1,8 +1,9 @@
+export NVM_AUTO_USE=true
+
 antigen use oh-my-zsh
 
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
-
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 antigen bundle lukechilds/zsh-nvm

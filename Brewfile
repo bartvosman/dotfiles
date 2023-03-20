@@ -5,6 +5,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 
 # Binaries
+brew 'awscli'
 brew 'composer'
 brew 'git'
 brew 'jq'
@@ -16,6 +17,7 @@ brew 'openshift-cli'
 brew 'php'
 brew 'pure'
 brew 'python'
+brew 'sops'
 brew 'yarn'
 brew 'zsh'
 
